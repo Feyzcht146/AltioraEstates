@@ -1,0 +1,316 @@
+{
+  "cr_locations": [
+    {
+      "province": "San José",
+      "city": "San José",
+      "district": "Escazú"
+    },
+    {
+      "province": "San José",
+      "city": "San José",
+      "district": "Santa Ana"
+    },
+    {
+      "province": "San José",
+      "city": "San José",
+      "district": "Sabana Norte"
+    },
+    {
+      "province": "San José",
+      "city": "San José",
+      "district": "Rohrmoser"
+    },
+    {
+      "province": "San José",
+      "city": "San José",
+      "district": "Curridabat"
+    },
+    {
+      "province": "San José",
+      "city": "San José",
+      "district": "La Uruca"
+    },
+    {
+      "province": "San José",
+      "city": "Desamparados",
+      "district": "Desamparados Centro"
+    },
+    {
+      "province": "San José",
+      "city": "Pérez Zeledón",
+      "district": "San Isidro de El General"
+    },
+    {
+      "province": "Alajuela",
+      "city": "Alajuela",
+      "district": "Alajuela Centro"
+    },
+    {
+      "province": "Alajuela",
+      "city": "Alajuela",
+      "district": "San José de Alajuela"
+    },
+    {
+      "province": "Alajuela",
+      "city": "Grecia",
+      "district": "Grecia Centro"
+    },
+    {
+      "province": "Alajuela",
+      "city": "Atenas",
+      "district": "Atenas Centro"
+    },
+    {
+      "province": "Alajuela",
+      "city": "San Carlos",
+      "district": "Ciudad Quesada"
+    },
+    {
+      "province": "Heredia",
+      "city": "Heredia",
+      "district": "Heredia Centro"
+    },
+    {
+      "province": "Heredia",
+      "city": "Heredia",
+      "district": "Ulloa"
+    },
+    {
+      "province": "Heredia",
+      "city": "Barva",
+      "district": "Barva Centro"
+    },
+    {
+      "province": "Heredia",
+      "city": "Santo Domingo",
+      "district": "Santo Domingo Centro"
+    },
+    {
+      "province": "Cartago",
+      "city": "Cartago",
+      "district": "Cartago Centro"
+    },
+    {
+      "province": "Cartago",
+      "city": "La Unión",
+      "district": "Tres Ríos"
+    },
+    {
+      "province": "Cartago",
+      "city": "Paraíso",
+      "district": "Paraíso Centro"
+    },
+    {
+      "province": "Guanacaste",
+      "city": "Liberia",
+      "district": "Liberia Centro"
+    },
+    {
+      "province": "Guanacaste",
+      "city": "Santa Cruz",
+      "district": "Tamarindo"
+    },
+    {
+      "province": "Guanacaste",
+      "city": "Santa Cruz",
+      "district": "Flamingo"
+    },
+    {
+      "province": "Guanacaste",
+      "city": "Nicoya",
+      "district": "Nosara"
+    },
+    {
+      "province": "Guanacaste",
+      "city": "Carrillo",
+      "district": "Sámara"
+    },
+    {
+      "province": "Puntarenas",
+      "city": "Puntarenas",
+      "district": "Puntarenas Centro"
+    },
+    {
+      "province": "Puntarenas",
+      "city": "Quepos",
+      "district": "Manuel Antonio"
+    },
+    {
+      "province": "Puntarenas",
+      "city": "Osa",
+      "district": "Puerto Jiménez"
+    },
+    {
+      "province": "Limón",
+      "city": "Limón",
+      "district": "Puerto Limón"
+    },
+    {
+      "province": "Limón",
+      "city": "Talamanca",
+      "district": "Puerto Viejo de Talamanca"
+    }
+  ],
+
+  "property_types": ["house", "apartment", "land", "commercial", "condominium"],
+
+  "property_weights": {
+    "house": 0.35,
+    "apartment": 0.3,
+    "condominium": 0.2,
+    "land": 0.1,
+    "commercial": 0.05
+  },
+
+  "price_ranges_usd": {
+    "house": { "min": 120000, "max": 900000 },
+    "apartment": { "min": 80000, "max": 400000 },
+    "condominium": { "min": 100000, "max": 600000 },
+    "land": { "min": 30000, "max": 300000 },
+    "commercial": { "min": 150000, "max": 1200000 }
+  },
+
+  "area_ranges_m2": {
+    "house": { "min": 100, "max": 500 },
+    "apartment": { "min": 45, "max": 200 },
+    "condominium": { "min": 60, "max": 250 },
+    "land": { "min": 200, "max": 5000 },
+    "commercial": { "min": 40, "max": 800 }
+  },
+
+  "agency_names": [
+    {
+      "name": "Terra Hogar",
+      "legal_name": "Terra Hogar Inmobiliaria S.A.",
+      "password": "terra123"
+    },
+    {
+      "name": "Concretus Desarrollos",
+      "legal_name": "Concretus Desarrollos Inmobiliarios S.A.",
+      "password": "concretus123"
+    },
+    {
+      "name": "Soleil Propiedades",
+      "legal_name": "Soleil Propiedades y Desarrollos LTDA",
+      "password": "soleil123"
+    },
+    {
+      "name": "Grupo Altamira",
+      "legal_name": "Grupo Altamira Real Estate S.A.",
+      "password": "altamira123"
+    },
+    {
+      "name": "CR Homes",
+      "legal_name": "CR Homes Bienes Raíces S.A.",
+      "password": "crhomes123"
+    },
+    {
+      "name": "Pacífico Realty",
+      "legal_name": "Pacífico Realty International LTDA",
+      "password": "pacificorealty123"
+    },
+    {
+      "name": "Valle Verde Propiedades",
+      "legal_name": "Valle Verde Propiedades S.A.",
+      "password": "valleverde123"
+    },
+    {
+      "name": "CostaLiving",
+      "legal_name": "CostaLiving Real Estate Group S.A.",
+      "password": "costaliving123"
+    }
+  ],
+
+  "property_title_templates": {
+    "house": [
+      "Casa moderna en {district} con vista a la montaña",
+      "Casa de {beds} habitaciones en {city}, {province}",
+      "Hermosa casa en condominio privado, {district}",
+      "Casa de campo con jardín en {city}",
+      "Casa familiar con piscina en {district}",
+      "Residencia de lujo en {city}, {province}"
+    ],
+    "apartment": [
+      "Apartamento ejecutivo en {district}, piso {floor}",
+      "Apto de {beds} habitaciones en {city}",
+      "Apartamento moderno con balcón en {district}",
+      "Penthouse en {city} con vista panorámica",
+      "Apartamento en edificio con amenidades, {district}"
+    ],
+    "land": [
+      "Lote residencial de {area}m² en {district}",
+      "Terreno con vista al mar en {city}",
+      "Lote plano en urbanización, {district}",
+      "Finca de {area}m² en {city}, {province}",
+      "Terreno comercial en zona de alto crecimiento, {city}"
+    ],
+    "commercial": [
+      "Local comercial en {district}, alto tráfico",
+      "Bodega industrial en {city}, {area}m²",
+      "Oficina ejecutiva en {district}",
+      "Plaza comercial en {city}, {province}"
+    ],
+    "condominium": [
+      "Condominio {name} — Unidad {unit}",
+      "Condo de {beds} habitaciones en {district}",
+      "Unidad en Condominio Privado, {city}",
+      "Condominio con amenidades completas, {district}"
+    ]
+  },
+
+  "condo_names": [
+    "Torres del Sol",
+    "Bosques del Río",
+    "Altamira Park",
+    "Vista Verde",
+    "Parque Real",
+    "Mar Azul",
+    "Jardines del Valle",
+    "Cumbre Dorada"
+  ],
+
+  "review_titles": [
+    "Excelente atención y proceso transparente",
+    "Muy buena agencia, recomendada",
+    "Proceso ágil y profesional",
+    "Buenas propiedades, comunicación mejorable",
+    "Agencia confiable y bien establecida",
+    "Superó mis expectativas",
+    "Buen servicio al cliente",
+    "Propiedades de calidad, precios justos",
+    "Equipo muy profesional",
+    "Satisfecho con el proceso de compra"
+  ],
+
+  "review_bodies": [
+    "El proceso desde la consulta inicial hasta el cierre fue muy fluido. El equipo respondió todas mis preguntas rápidamente.",
+    "Llevaba meses buscando y esta agencia fue la que mejor entendió lo que necesitaba. Muy recomendados.",
+    "La información de las propiedades es muy detallada y honesta. No hubo sorpresas al momento de visitar.",
+    "El trato fue muy profesional. Me asesoraron bien en el proceso de financiamiento también.",
+    "Tardaron un par de días en responder al inicio pero luego todo fluyó perfectamente. Buenos resultados.",
+    "Conocen muy bien el mercado local. Me dieron información muy valiosa sobre la zona antes de decidir.",
+    "Proceso limpio y transparente. Los documentos estuvieron listos sin contratiempos.",
+    "La calidad de las fotos y la descripción de la propiedad eran exactamente como se veía en persona.",
+    "Buena experiencia en general. El precio fue justo y el proceso relativamente rápido.",
+    "Trabajé con otros agentes antes y esta fue la mejor experiencia que he tenido en bienes raíces."
+  ],
+
+  "rejection_reasons": [
+    "La documentación de financiamiento no cumple con nuestros requisitos mínimos. Puede volver a aplicar cuando tenga la aprobación bancaria.",
+    "La propiedad fue adquirida por otro comprador que presentó documentación completa primero.",
+    "El propietario decidió no proceder con la venta en este momento.",
+    "El comprador no completó la documentación requerida en el plazo establecido.",
+    "Por solicitud del cliente vendedor, la propiedad fue retirada temporalmente del mercado."
+  ],
+
+  "email_templates": {
+    "purchase_received": "Recibimos tu solicitud de compra — {title}",
+    "purchase_accepted": "¡Buenas noticias! Tu solicitud fue aceptada — {title}",
+    "purchase_rejected": "Actualización sobre tu solicitud — {title}",
+    "agency_new_request": "Nueva solicitud de compra recibida — {title}",
+    "agency_post_approve": "La publicacón de venta - {title} - ha sido aprobada",
+    "agency_new_review": "Has recibido una nueva reseña de {buyer}: «{title}»",
+    "welcome_buyer": "Bienvenido/a a Altiora Estates, {name}",
+    "welcome_agency": "Bienvenida {agency} a Altiora Estates"
+  }
+}
